@@ -1,0 +1,20 @@
+
+
+#gameTitle{
+    height: 500px;
+    width: 50%;
+    margin-right: 100px;
+    margin-left: 50px;
+    background-color: bisque;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+#gameArea{
+   text-align: Center 
+   
+}
