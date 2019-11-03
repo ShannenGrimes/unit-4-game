@@ -17,7 +17,7 @@ $(document).ready(function () {
     
     // Reset
     function populate() {
-        if (result > compChoice)
+        if (result > randomNumber)
         result = 0;
         $("#userNum").text(result);
         crystal1 = Math.floor(Math.random() * 12 + 1);
@@ -26,10 +26,11 @@ $(document).ready(function () {
         crystal4 = Math.floor(Math.random() * 12 + 1);
         compChoice = Math.floor(Math.random() * 102 + 19);
 
-        $("#compNum").text("Match this number: " + compChoice);
+        $("#randomNumber").text("Match this number: " + randomNumber);
     }
-    console.log()
-    
+    console.log(randomNumber);
+
+
 
 
 
