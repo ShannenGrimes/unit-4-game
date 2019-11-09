@@ -1,5 +1,26 @@
 body{
     background-color: blueviolet;
+    text-align: center !important;
+}
+
+.jumbotron{
+    position: relative;
+    padding:0 !important;
+    margin-top:70px !important;
+    background-color: rebeccapurple;
+    margin-top: 23px;
+    text-align:center;
+    margin-bottom: 0 !important;
+    font-family: 'Fira Sans', sans-serif !important;
+    font-size: xx-large !important; 
+}
+.container-fluid{
+        padding:0 !important;
+        position: inherit  !important;
+}
+.col{
+    padding: 0 !Important;
+    position: inherit !important
 }
 
 h1 {
@@ -11,12 +32,14 @@ h1 {
     border: 2 px orange;
     font-size: large;
     color: darkcyan;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h3{
     text-align: center;
     font-size: medium;
     color: deepskyblue;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .btn{
@@ -26,11 +49,16 @@ h3{
     float: right;
     position: center;
     padding: 0;
-    height: 10rem;
+    height: 8rem;
     width: 8rem;
     border: 2px green;
     background: transparent;
+}
 
-
+.container{
+    position: center;
+    font-family: 'Varela Round', sans-serif;
+    margin: 50px;
+    font-size: x-large;
 
 }

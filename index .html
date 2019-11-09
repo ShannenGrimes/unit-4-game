@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700i|Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <script
@@ -14,53 +20,55 @@
     <title>Crystal Collector Game</title>
   </head>
   <body>
+    <h1 class="jumbotron text-center">Crystal Collector Game</h1>
+    <div class="row">   
+      <div class="container-fluid">
+        <div class="row-fluid"></div>
+          <div class="col-xs-2">
+            <h3>Number to Match</h3>
+            <h3 id="numberToMatch"></h3>
+          </div>
+          <div class="col-xs-2">
+            <h3>Wins</h3>
+            <h3 id="counterWins"></h3>
+          </div>
+          <div class="col-xs-2">
+            <h3>Losses</h3>
+            <h3 id="counterLosses"></h3>
+          </div>
+          <div class="col-xs-2">
+            <h3>Total</h3>
+            <h3 id="total"></h3>
+          </div>
 
-    <h1 class="navbar-brand text-center">Crystal Collector Game</h1>
+          <div class="column col-xs-4" id="sidebar">
+            <button class="btn primary jewel" id="crystal">
+              <img src="assets/images/crystal1.png" width="20" />
+            </button>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-2">
-                <h3>Number to Match</h3>
-                <h3 id="numberToMatch"></h3>
-            </div>
-            <div class="col-xs-2">
-                <h3>Wins</h3>
-                <h3 id="counterWins"></h3>
-            </div>
-            <div class="col-xs-2">
-                <h3>Losses</h3>
-                <h3 id="counterLosses"></h3>
-            </div>
-            <div class="col-xs-2">
-                <h3>Total</h3>
-                <h3 id="total"></h3>
-            </div>
+            <button class="btn primary jewel" id="crystal2">
+              <img src="assets/images/crystal2.png" width="20" />
+            </button>
 
+            <button class="btn primary jewel" id="crystal3">
+              <img src="assets/images/crystal3.png" width="20" />
+            </button>
 
-            <div class="column col-xs-4" id="sidebar">
-                <button class="btn primary jewel" id="crystal">
-  	     <img src="assets/images/crystal1.png" width="20" />
-  	</button>
-
-                <button class="btn primary jewel" id="crystal2">
-  	     <img src="assets/images/crystal2.png" width="20" />
-  	</button>
-
-                <button class="btn primary jewel" id="crystal3">
-  	     <img src="assets/images/crystal3.png" width="20" />
-  	</button>
-
-                <button class="btn primary jewel" id="crystal4">
-  	     <img src="assets/images/crystal4.png" width="20" />
-  	</button>
-            </div>
-            <!-- row for the counters end -->
+            <button class="btn primary jewel" id="crystal4">
+              <img src="assets/images/crystal4.png" width="20" />
+            </button>
+          </div>
+          <!-- row for the counters end -->
         </div>
         <!-- container div -->
-    </div>
-
+      </div>
+    </div>   
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Bootstrap JavaScript -->
