@@ -6,9 +6,9 @@ h1 {
     text-align: center;
     height: 60px;
     width: 100%;
-    background-color: crimson;
+    background-color: black;
     margin-top: 0;
-    border: 2 px blue;
+    border: 2 px orange;
     font-size: large;
     color: darkcyan;
 }
@@ -24,7 +24,7 @@ h3{
 }
 .btn img {
     float: right;
-    position: relative;
+    position: center;
     padding: 0;
     height: 10rem;
     width: 8rem;
