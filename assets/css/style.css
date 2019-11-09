@@ -1,31 +1,36 @@
 body{
-    background-color: blueviolet
+    background-color: blueviolet;
 }
 
-#gameTitle{
-    height: 50px;
-    width: auto;
-    margin-right: 100px;
-    margin-left: 50px;
-    background-color: powderblue;
-    display: table-cell;
-    vertical-align: middle;
+h1 {
     text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-
+    height: 60px;
+    width: 100%;
+    background-color: crimson;
+    margin-top: 0;
+    border: 2 px blue;
+    font-size: large;
+    color: darkcyan;
 }
 
-#gameArea{
-   text-align: Center
-      
-}
-
-#instructions{
-    background-color: bisque;
+h3{
     text-align: center;
-    width: 400px;
-    height: auto;
-    margin: 10px;
-    padding: 20px;
+    font-size: medium;
+    color: deepskyblue;
+}
+
+.btn{
+    padding: 0;
+}
+.btn img {
+    float: right;
+    position: relative;
+    padding: 0;
+    height: 10rem;
+    width: 8rem;
+    border: 2px green;
+    background: transparent;
+
+
+
 }
