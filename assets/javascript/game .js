@@ -73,7 +73,7 @@ $(document).ready(function () {
       reset();
   }
 
-  $('<a>').remove();
+  $('<script>achors.add();</script>').remove();
   //Total Losses
   function loserDeclare() {
       alert("You lose!");
