@@ -73,6 +73,7 @@ $(document).ready(function () {
       reset();
   }
 
+  $('<a>').remove();
   //Total Losses
   function loserDeclare() {
       alert("You lose!");
