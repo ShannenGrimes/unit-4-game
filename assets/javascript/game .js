@@ -1,4 +1,4 @@
-$(document).ready(function () {
+
 
   // Gobal function to generate a random number
 
@@ -82,4 +82,3 @@ $(document).ready(function () {
       reset()
   }
 
-});
